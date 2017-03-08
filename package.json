@@ -4,7 +4,8 @@
   "description": "In this repository we will try to build and determine relationships between composers",
   "private": true,
   "scripts": {
-    "start": "node ./app.js"
+    "start": "node ./app.js",
+    "lint": "eslint . || true"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MusicConnectionMachine/RelationshipsG3/issues"
   },
-  "homepage": "https://github.com/MusicConnectionMachine/RelationshipsG3#readme"
+  "homepage": "https://github.com/MusicConnectionMachine/RelationshipsG3#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1"
+  }
 }
