@@ -57,5 +57,6 @@ To run the project locally follow the following steps:
  }
 ```
 `Note:`
-Change the path to the absolute path of the "test.txt" file in the example directory
+This is in refernce to structure given by team-2.
+Also change the path to the absolute path of the "test.txt" file in the example directory
 4. Then click on the send. In response to that you will get the required result.
