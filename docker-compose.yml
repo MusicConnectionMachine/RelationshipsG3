@@ -1,0 +1,7 @@
+version: "2"
+services:
+  relationship_g3:
+    build: .
+    ports:
+    - "8080:8080"
+
