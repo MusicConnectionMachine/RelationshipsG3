@@ -6,6 +6,7 @@ In this repository we will try to build and determine relationships between comp
 
 1. Install the node and npm, from the website (https://nodejs.org/en/download/)
 2. Install the docker and docker-compose
+
 ###Dockerhub Setup
 
 To Do
