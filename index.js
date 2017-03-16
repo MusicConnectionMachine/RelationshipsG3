@@ -1,19 +1,12 @@
 const app = require('./app')
-const port = process.env.PORT || 8080
+
+const config = require('./config')
+const port = process.env.PORT || config.server.port
 
 app.listen(port, function (err) {
   if (err) {
     throw err
   }
-  console.log('Server started and listening on port ' + port);
+  console.log('Relationship Group - 3 Server started and listening on port ' + port);
 });
-
-
-
-
-
-
-
-
-
 
