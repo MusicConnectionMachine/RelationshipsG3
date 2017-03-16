@@ -2,10 +2,13 @@
 
 In this repository we will try to build and determine relationships between composers
 
+
 ## Setup
+
 
 1. Install the node and npm, from the website (https://nodejs.org/en/download/)
 2. Install the docker and docker-compose
+
 
 ### Dockerhub Setup
 
@@ -14,12 +17,14 @@ To Do
 ## Run Project
 
 #### Local Run: 
+
 To run the project locally follow the following steps:
 
 1. After successfully installing it, go into the project root directory and run 
 **npm install**. This will install all the dependencies.
 2. Now run the server by running the command **npm start**
 3. Now open http://localhost:8080/relationshipg3, you will get a welcome message.
+
 
 #### Run inside Docker:
  
@@ -127,6 +132,7 @@ These APIs will be called from the main application.
   2. Download/Build the complete JAR of the OpenIE algorithm and copy it inside the openie 
        directory inside algorithms folder. https://github.com/knowitall/openie
 ## Example to test the server
+
 1. First install postman plugin for chrome browser, this will be used to send json query to our application
 2. Choose the post, and enter the URL as any from the following:
 ```
@@ -158,5 +164,7 @@ These APIs will be called from the main application.
 ```
 `Note:`
 This is in refernce to structure given by team-2.
+
 Also change the path to the absolute path of the "test.txt" file in the example directory.
+
 4. Then click on the send. In response to that you will get the required result.
