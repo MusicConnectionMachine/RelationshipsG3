@@ -1,4 +1,4 @@
 # Presentation
-Link to presentation?
+Current outline for peer review
 
 # Workshop
