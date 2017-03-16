@@ -26,7 +26,8 @@
     "fs": "0.0.1-security",
     "morgan": "^1.8.1",
     "request": "^2.81.0",
-    "sentence-tokenizer": "0.0.7"
+    "sentence-tokenizer": "0.0.7",
+    "tail": "^1.2.1"
   },
   "main": "index.js",
   "keywords": [

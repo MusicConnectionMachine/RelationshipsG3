@@ -1,6 +1,5 @@
 // BASE SETUP
 // =============================================================================
-
 // call the packages we need
 var express     = require('express');
 var bodyParser  = require('body-parser');
@@ -17,7 +16,6 @@ app.use(morgan('dev')); // log requests to the console
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var port     = process.env.PORT || 8080; // set our port
 
 // Variables
 // =============================================================================
@@ -121,18 +119,12 @@ router.route('/getAllEntitySentences')
           }
         }
       }
-
       res.json( {allEntitySentences:AllEntitySentences});
       //console.log(allSentences);
     });
   })
-
-
 // REGISTER OUR ROUTES -------------------------------
 app.use('/relationshipG3', router);
-
-// START THE SERVER
-// =============================================================================
 module.exports = app
 
 
