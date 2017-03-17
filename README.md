@@ -19,11 +19,16 @@ To run the project locally follow the following steps:
 1. After successfully installing it, go into the project root directory and run 
 **npm install**. This will install all the dependencies.
 2. Now run the server by running the command **npm start**
-3. Now open http://localhost:8080/relationshipg3, you will get a welcome message.
+3. Now open http://localhost:8080/docs, you will get a welcome message from swagger with all APIs description.
+**Note:** 
+If you want to check algorithms API, run the npm from the specific algortihms folder and 
+go to the specific port as shown in terminal.
 
 #### Run inside Docker:
  
  1. Run the shell script inside the script folder.
+
+
 
 #### Relationship Extraction Algorithms
 Relationship extraction algorithm will be running in a seprate container and our main application
@@ -160,3 +165,4 @@ These APIs will be called from the main application.
 This is in refernce to structure given by team-2.
 Also change the path to the absolute path of the "test.txt" file in the example directory.
 4. Then click on the send. In response to that you will get the required result.
+
