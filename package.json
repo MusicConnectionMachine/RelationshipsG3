@@ -4,6 +4,7 @@
   "description": "In this repository we will try to build and determine relationships between composers",
   "private": true,
   "scripts": {
+    "prestart": "npm install",
     "start": "node index.js",
     "lint": "eslint . || true"
   },
@@ -27,8 +28,10 @@
     "morgan": "^1.8.1",
     "request": "^2.81.0",
     "sentence-tokenizer": "0.0.7",
-    "tail": "^1.2.1"
-
+    "tail": "^1.2.1",
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "swagger-tools": "0.10.1"
   },
   "main": "index.js",
   "keywords": [
