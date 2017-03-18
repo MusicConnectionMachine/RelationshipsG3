@@ -3,6 +3,6 @@
 var url = require('url');
 var GetRelationships = require('./GetRelationshipsService');
 
-module.exports.getRelationshipsGET = function getRelationshipsGET (req, res, next) {
-  GetRelationships.getRelationshipsGET(req.swagger.params, res, next);
+module.exports.getRelationshipsPOST = function getRelationshipsGET (req, res, next) {
+  GetRelationships.getRelationshipsPOST(req.swagger.params, res, next);
 };

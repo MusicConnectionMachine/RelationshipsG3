@@ -3,7 +3,7 @@ var exec        = require('child_process').exec;
 var clone       = require('clone');
 var config      = require('../config');
 var fs          = require('fs');
-exports.getRelationshipsGET = function(args, res, next) {
+exports.getRelationshipsPOST = function(args, res, next) {
   /**
    * Get the relationships from the given set of text array
    * The GetRelationships endpoint returns all the relationships found in the text by running openIE algorithm on it. The response includes the sentence and the instances which contains detail about each instance of relationship found.
