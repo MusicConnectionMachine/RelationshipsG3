@@ -1,0 +1,3 @@
+[submodule "remote"]
+	path = remote
+	url = git@github.com:MusicConnectionMachine/api.git
