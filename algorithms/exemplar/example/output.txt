@@ -1,0 +1,36 @@
+Subjects	Relation	Objects	Normalized Relation	Sentence
+SUBJ:Leopold#PER	wanted		want	The Italian outing was longer than the others -LRB- 1769-1771 -RRB- as Leopold wanted to display his son 's abilities as a performer and composer to as many new audiences as possible .
+SUBJ:Wolfgang#PER	heard		hear	While in Rome , Wolfgang heard Gregorio Allegri 's Miserere performed once in the Sistine Chapel .
+	court	DOBJ:Milan#LOC	court	During this time Wolfgang also wrote a new opera , Mitridate , re di Ponto for the court of Milan .
+SUBJ:Wolfgang#PER	wrote new opera		write opera	During this time Wolfgang also wrote a new opera , Mitridate , re di Ponto for the court of Milan .
+SUBJ:Wolfgang#PER	wrote other operas		write opera	Other commissions followed and in subsequent trips to Italy , Wolfgang wrote two other operas , Ascanio in Alba -LRB- 1771 -RRB- and Lucio Silla -LRB- 1772 -RRB- .
+SUBJ:Hieronymus von Colleredo#PER	succeeded benefactor		succeed benefactor	His father 's benefactor , Archbishop von Schrattenbach had died and was succeeded by Hieronymus von Colleredo .
+SUBJ:von Schrattenbach#PER	benefactor		be benefactor	His father 's benefactor , Archbishop von Schrattenbach had died and was succeeded by Hieronymus von Colleredo .
+SUBJ:Mozart#PER	had opportunity		have opportunity	During this time , young Mozart had the opportunity to work in several different musical genres composing symphonies , string quartets , sonatas and serenades and a few operas .
+SUBJ:Wolfgang#PER	turned		turn	Wolfgang had just turned 21 .
+SUBJ:Wolfgang Amadeus Mozart#PER	growing discontent		grow discontent	Despite his success with the compositions , Wolfgang Amadeus Mozart was growing discontent with his position as assistant concert master and the confining environment of Salzburg .
+SUBJ:von Colloredo#PER	becoming		become	Archbishop von Colloredo was becoming inpatient with the young genius 's complaining and immature attitude .
+SUBJ:Mozart#ORG	set		set	In August 1777 , Mozart set out on a trip to find more prosperous employment .
+SUBJ:Anna Maria#PER	accompanied	DOBJ:Wolfgang#PER	accompany	The archbishop would n't give Leopold permission to travel , so Anna Maria accompanied Wolfgang on his quest to the cities of Mannheim and Paris and Munich .
+SUBJ:Leopold#PER	negotiated		negotiate	After hearing the news of his wife 's death , Leopold negotiated a better post for his son as court organist in Salzburg and Wolfgang returned soon after .
+SUBJ:Wolfgang Amadeus Mozart#PER	produced series	POBJ-INCLUDING:Coronation Mass.#LOC	produce series	Back in Salzburg in 1779 , Wolfgang Amadeus Mozart produced a series of church works , including the Coronation Mass. .
+SUBJ:von Colloredo#PER	summoned	DOBJ:Mozart#PER,,POBJ-TO:Vienna#LOC	summon	In March of that year , Mozart was summoned to Vienna by Archbishop von Colloredo , who was attending the accession of Joseph II to the Austrian throne .
+	accession	DOBJ:Joseph II#PER	access	In March of that year , Mozart was summoned to Vienna by Archbishop von Colloredo , who was attending the accession of Joseph II to the Austrian throne .
+SUBJ:von Colloredo#PER	attending accession	POBJ-OF:Joseph II#PER	attend accession	In March of that year , Mozart was summoned to Vienna by Archbishop von Colloredo , who was attending the accession of Joseph II to the Austrian throne .
+SUBJ:Mozart#PER	offered		offer	A quarrel ensued and Mozart offered to resign his post .
+SUBJ:Mozart#PER	decided		decide	Mozart decided to settle in Vienna as a freelance performer and composer and for a time lived with friends at the home of Fridolin Weber .
+SUBJ:Wolfgang Amadeus Mozart#PER	found work	POBJ-IN:Vienna#LOC	find work	Wolfgang Amadeus Mozart quickly found work in Vienna , taking on pupils , writing music for publication , and playing in several concerts .
+SUBJ:Mozart#PER	contemplating marriage		contemplate marriage	In the summer of 1781 , it was rumored that Mozart was contemplating marriage to Fridolin Weber 's daughter , Constanze .
+SUBJ:Constanze#PER	daughter	POBJ-OF:Fridolin Weber#PER	be daughter	In the summer of 1781 , it was rumored that Mozart was contemplating marriage to Fridolin Weber 's daughter , Constanze .
+SUBJ:Mozart#PER	wrote father		write father	Knowing his father would disapprove of the marriage and the interruption in his career , young Mozart quickly wrote his father denying any idea of marriage .
+SUBJ:Leopold#PER	disapproved		disapprove	While it 's known that Leopold disapproved , what is not known is the discussion between father and son as Leopold 's letters were said to be destroyed by Constanze .
+SUBJ:Constanze#PER	destroyed		destroy	While it 's known that Leopold disapproved , what is not known is the discussion between father and son as Leopold 's letters were said to be destroyed by Constanze .
+SUBJ:Leopold#PER	consent		be consent	In the meantime , Leopold did finally consent to the marriage .
+SUBJ:Constanze#PER,,SUBJ:Wolfgang#PER	had children		have child	Constanze and Wolfgang had six children , though only two survived infancy , Karl Thomas and Franz Xaver .
+SUBJ:Franz Xaver#PER,,SUBJ:Karl Thomas#PER	survived infancy		be infancy	Constanze and Wolfgang had six children , though only two survived infancy , Karl Thomas and Franz Xaver .
+	enthralled	DOBJ:Wolfgang Amadeus Mozart#PER	enthral	As 1782 turned to 1783 , Wolfgang Amadeus Mozart became enthralled with the work of Johannes Sebastian Bach and George Frederic Handel and this , in turn , resulted in several compositions in the Baroque style and influenced much of his later compositions , such as passages in Die Zauberflote -LRB- The Magic Flute -RRB- and the finale of Symphony Number 41 .
+	work	DOBJ:Johannes Sebastian Bach#PER,,DOBJ:George Frederic Handel#PER	work	As 1782 turned to 1783 , Wolfgang Amadeus Mozart became enthralled with the work of Johannes Sebastian Bach and George Frederic Handel and this , in turn , resulted in several compositions in the Baroque style and influenced much of his later compositions , such as passages in Die Zauberflote -LRB- The Magic Flute -RRB- and the finale of Symphony Number 41 .
+SUBJ:Mozart#PER	met		meet	During this time , Mozart met Joseph Haydn and the two composers became admiring friends .
+SUBJ:Joseph Haydn#PER	became admiring friends		become friend	During this time , Mozart met Joseph Haydn and the two composers became admiring friends .
+SUBJ:Haydn#PER	visited	DOBJ:Vienna#LOC	visit	When Haydn visited Vienna , they sometimes performed impromptu concerts with string quartets .
+SUBJ:Mozart#PER	wrote quartets		write quartet	Between 1782 and 1785 Mozart wrote six quartets dedicated to Haydn .
