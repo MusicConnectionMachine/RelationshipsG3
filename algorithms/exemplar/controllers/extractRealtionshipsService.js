@@ -19,8 +19,7 @@ exports.extractRealtionships = function(args, res, next) {
   "instances" : [ {
     "term1" : "aeiou",
     "relation" : "aeiou",
-    "term2" : "aeiou",
-    "quality" : 1.3579000000000001069366817318950779736042022705078125
+    "term2" : "aeiou"
   } ]
 } ];
   var relations=
@@ -28,7 +27,6 @@ exports.extractRealtionships = function(args, res, next) {
       sentence:"",
       instances:[
         {
-          quality:"",
           term1:"",
           relation:"",
           term2:""
@@ -75,7 +73,7 @@ exports.extractRealtionships = function(args, res, next) {
       var length = list.length;
       var sentence = list[list.length - 1];
       relations.sentence = sentence;
-      instancesArr.push({quality:"", term1: list[0], term2:list[2], relation:list[1]});
+      instancesArr.push({term1: list[0], term2:list[2], relation:list[1]});
       relations.instances = instancesArr;
       var temp = clone(relations);
       exMessage.push(temp);

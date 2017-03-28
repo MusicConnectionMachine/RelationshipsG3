@@ -70,9 +70,6 @@ definitions:
   Instance:
     type: "object"
     properties:
-      quality:
-        type: "number"
-        description: "a quality given to the relationship found"
       term1:
         type: "string"
         description: "Entity or a relation present in the sentence"

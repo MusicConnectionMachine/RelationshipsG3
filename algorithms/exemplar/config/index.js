@@ -1,7 +1,7 @@
 // config.js
 module.exports = {
   "server":{
-    "port": "3001",
+    "port": "3002",
     "host": "localhost"
   },
   "exemplarAlgo":

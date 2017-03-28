@@ -1,5 +1,5 @@
 {
-  "name": "openie-algorithm-relationshipg3-api",
+  "name": "exemplar-algorithm-relationshipg3-api",
   "version": "1.0.0",
   "description": "Get the Music relationships by running the exemplar Algorithm on a set of sentences.",
   "main": "index.js",
