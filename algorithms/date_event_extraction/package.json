@@ -17,7 +17,6 @@
     "connect": "^3.2.0",
     "deasync": "^0.1.9",
     "express": "^4.0.0",
-    "fs": "0.0.1-security",
     "js-yaml": "^3.3.0",
     "morgan": "~1.0.0",
     "ner-node": "0.0.7",
