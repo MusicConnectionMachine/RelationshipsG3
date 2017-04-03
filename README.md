@@ -136,6 +136,35 @@ These APIs will be called from the main application.
   directory inside algorithms folder. https://github.com/knowitall/ollie
   2. Download/Build the complete JAR of the OpenIE algorithm and copy it inside the openie 
        directory inside algorithms folder. https://github.com/knowitall/openie
+#### Co-Reference Resolution Algorithms
+This algorithm will remove all the co references with their actual references inside the text.
+Steps to run the algorithm: 
+1. To run this first download the Stanford NLP package from here (http://nlp.stanford.edu/software/stanford-corenlp-full-2016-10-31.zip) and extract in the root directory of the coreference_resolution directory.
+2. You can either run inside the docker container(docker-compose up) or locally(npm start) inside the coreference_resolution directory.
+
+#### Date-Event Extraction Algorithm
+This algorithm will extract the date and events from the text and gives the output in the below form :
+   ```
+[
+    {
+        "start": "1685",
+        "event": "Bach was born in Eisenach in 1685."
+    },
+    {
+        "start": "1700",
+        "event": "Because of his excellent singing voice, Bach attained a position at the Michaelis monastery at L?neberg in 1700."
+    },
+    {
+        "start": "1703",
+        "event": "After taking a short-lived post in Weimar in 1703 as a violinist, Bach became organist at the Neue Kirche in Arnstadt (1703-1707)."
+    },
+    {
+        "start": "June 1707",
+        "event": "Blasius in M?hlhausen as organist, beginning in June 1707, and married his cousin, Maria Barbara Bach, that fall."
+    },
+]
+   ```
+You can either run inside the docker container(docker-compose up) or locally(npm start) inside the coreference_resolution directory.
 ## Example to test the server
 
 1. First install postman plugin for chrome browser, this will be used to send json query to our application
