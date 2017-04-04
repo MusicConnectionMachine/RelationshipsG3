@@ -16,32 +16,32 @@ To Do
 
 ## Run Project
 
-#### Local Run: 
+#### Local Run:
 
 To run the project locally follow the following steps:
 
-1. After successfully installing it, go into the project root directory and run 
+1. After successfully installing it, go into the project root directory and run
 **npm install**. This will install all the dependencies.
 2. Now run the server by running the command **npm start**
 3. Now open http://localhost:8080/docs, you will get a welcome message from swagger with all APIs description.
-**Note:** 
-If you want to check algorithms API, run the npm from the specific algortihms folder and 
+**Note:**
+If you want to check algorithms API, run the npm from the specific algortihms folder and
 go to the specific port as shown in terminal.
 
 
 #### Run inside Docker:
- 
+
  1. Run the shell script inside the script folder.
 
 
 
 #### Relationship Extraction Algorithms
 Relationship extraction algorithm will be running in a seprate container and our main application
-will interact with it to get the relationship. 
+will interact with it to get the relationship.
 
 Scripts are added to run the algorithms inside the docker.
- 
-We are considering **Ollie** and **Open-IE(by Washington univ)** algorithms for relationship extraction.
+
+We are considering **Ollie** , **Open-IE(by Washington univ)** and **exemplar** algorithms for relationship extraction.
 
 Node.js wrapper is added for both the algorithms.
 Input to the ALgorithms can be provided in either a text file format or Array of strings format.
@@ -49,7 +49,7 @@ Input to the ALgorithms can be provided in either a text file format or Array of
 {
    "inputpath":"example/test.txt"
  }
- or 
+ or
  {
     "array":["hello i am here", "whats is going on"]
   }
@@ -129,13 +129,63 @@ The output from the openIE algorithm will be in this format:
   {...}
   ]
    ```
+The output from the exemplar algorithm will be in this format:
+```
+[
+  {
+    "sentence": "The Italian outing was longer than the others -LRB- 1769-1771 -RRB- as Leopold wanted to display his son 's abilities as a performer and composer to as many new audiences as possible .",
+    "instances": [
+      {
+        "term1": "SUBJ:Leopold#PER",
+        "term2": "",
+        "relation": "wanted"
+      }
+    ]
+  },
+  {
+    "sentence": "While in Rome , Wolfgang heard Gregorio Allegri 's Miserere performed once in the Sistine Chapel .",
+    "instances": [
+      {
+        "term1": "SUBJ:Wolfgang#PER",
+        "term2": "",
+        "relation": "heard"
+      }
+    ]
+  },
+  {
+    "sentence": "During this time Wolfgang also wrote a new opera , Mitridate , re di Ponto for the court of Milan .",
+    "instances": [
+      {
+        "term1": "SUBJ:Wolfgang#PER",
+        "term2": "",
+        "relation": "wrote new opera"
+      }
+    ]
+  },
+  {
+    "sentence": "During this time , young Mozart had the opportunity to work in several different musical genres composing symphonies , string quartets , sonatas and serenades and a few operas .",
+    "instances": [
+      {
+        "term1": "SUBJ:Mozart#PER",
+        "term2": "",
+        "relation": "had opportunity"
+      }
+    ]
+  },
+  {...}
+]
+```
 These APIs will be called from the main application.
 
 **Note:**
-1. Download/Build the complete JAR of the ollie algorithm and copy it inside the ollie 
+1. Download/Build the complete JAR of the ollie algorithm and copy it inside the ollie
   directory inside algorithms folder. https://github.com/knowitall/ollie
-  2. Download/Build the complete JAR of the OpenIE algorithm and copy it inside the openie 
+2. Download/Build the complete JAR of the OpenIE algorithm and copy it inside the openie
        directory inside algorithms folder. https://github.com/knowitall/openie
+3. Download/clone the repository https://github.com/U-Alberta/exemplar, and follow
+   the instructions to download the dependencies and build the jar. Copy the generated lib
+   directory inside algorithms/exemplar directory. Also copy the jar files from dist
+   directory to algorithms/exemplar directory.
 ## Example to test the server
 
 1. First install postman plugin for chrome browser, this will be used to send json query to our application
@@ -145,7 +195,7 @@ These APIs will be called from the main application.
     2. http://localhost:8080/relationshipg3/getAllEntities
     3. http://localhost:8080/relationshipg3/getAllEntitySentences
 ```
-    
+
 3. Use the following structure as the **body** with data as "**raw**" and format as "**JSON**"
 
 
@@ -173,4 +223,3 @@ This is in refernce to structure given by team-2.
 Also change the path to the absolute path of the "test.txt" file in the example directory.
 
 4. Then click on the send. In response to that you will get the required result.
-
